@@ -82,6 +82,9 @@ header {
   font-size: 72px;
   font-weight: bold;
   margin-top: 32px; }
+  @media (max-width: 36em) {
+    header {
+      font-size: 36px; } }
 
 .intro {
   font-family: 'Helvetica';
@@ -92,6 +95,9 @@ header {
   letter-spacing: -1.8px;
   word-wrap: break-word;
   color: #FFF; }
+  @media (max-width: 36em) {
+    .intro {
+      font-size: 36px; } }
 
 .info {
   display: -ms-flexbox;

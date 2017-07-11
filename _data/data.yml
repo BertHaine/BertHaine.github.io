@@ -1,0 +1,31 @@
+social: 
+  - title: Linkedin
+    url: https://www.linkedin.com/in/bertramhaine/
+  - title: Github
+    url: https://github.com/BertHaine/
+  - title: Dribbble
+    url: https://www.dribbble.com/in/berthaine/
+  - title: Behance
+    url: https://behance.net/bertramhaine
+  - title: Dwell
+    url: https://behance.net/bertramhainedat
+
+projects: 
+  - title: Vice Grip
+    url: https://vicegripapp.herokuapp.com/
+  - title: Whack-a-Mole Game
+    url: https://berthaine.github.io/whack_a_mole/
+  - title: Mapper
+    url: https://dayplanproject3.herokuapp.com/
+  - title: Spotify BestOf
+    url: https://spotifybestofapp.herokuapp.com/
+
+
+intro: 
+  - title: I am a Web Developer and Designer
+  - title: Ich bin ein Web-Entwickler und Designer
+  - title: Je suis Développeur Web et Designer
+
+info: 
+  - bio: I am a Front-End Developer & Designer living in Seattle, WA with experience developing e-commerce solutions and managing complex media projects.
+

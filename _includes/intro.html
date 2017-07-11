@@ -1,7 +1,5 @@
-<div class="intro">I am a Web Developer and
-  Designer <br>
-  Ich bin ein Web-Entwickler 
-  und Designer<br>
-  Je suis Développeur Web et
-  Designer<br>
+<div class="intro">
+  {% for item in site.data.data.intro %}
+  <p>{{ item.title }}</p>
+  {% endfor %}
 </div>

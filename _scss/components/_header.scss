@@ -3,4 +3,8 @@ header {
   font-size: 72px;
   font-weight: bold;
   margin-top: 32px;
+
+  @media (max-width: 36em) {
+    font-size: 36px;
+  }
 }

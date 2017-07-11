@@ -133,7 +133,7 @@ header {
 li:hover:after {
   content: "→";
   margin-left: .2em;
-  transition: margin 0.1s; }
+  transition: margin 0.5s; }
 
 li:visited {
   color: inherit; }

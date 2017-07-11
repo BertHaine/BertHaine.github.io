@@ -1,0 +1,20 @@
+.info {
+  @include flex-grid(1, 2, 4, $pad: 1rem);
+  line-height: 1.5em;
+  margin-top: 2em;
+  word-wrap: break-word;
+}
+
+
+li {
+
+  &:hover:after {
+    content: "→";
+    margin-left: .2em;
+    transition: margin 0.1s;  
+    // font-size: 10px;
+  }
+  &:visited {
+  color: inherit;
+  } 
+}

@@ -1,4 +1,4 @@
-Jekyll Boilerplate
+Bertram Haine's Portfolio
 =============================
 
 A starter project including full setup for Jekyll, GulpJS, SASS, AutoPrefixer &amp; BrowserSync

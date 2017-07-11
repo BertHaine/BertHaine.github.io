@@ -1,0 +1,40 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -moz-font-feature-settings: 'liga' on;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  transition: background 1.5s ease;
+  color: #181818;
+  background: #8E908F;
+}
+
+.site {
+  width: 88.88889%;
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+a {
+  -webkit-transition: border 500ms ease;
+     -moz-transition: border 500ms ease;
+      -ms-transition: border 500ms ease;
+       -o-transition: border 500ms ease;
+          transition: border 500ms ease;
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px solid rgba(192, 192, 192, 0);
+}
+
+a:hover {
+  border-bottom: 1px solid rgba(192, 192, 192, 1);
+}

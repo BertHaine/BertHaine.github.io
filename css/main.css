@@ -84,7 +84,7 @@ header {
   margin-top: 32px; }
   @media (max-width: 36em) {
     header {
-      font-size: 36px; } }
+      font-size: 34px; } }
 
 .intro {
   font-family: 'Helvetica';
@@ -97,7 +97,7 @@ header {
   color: #FFF; }
   @media (max-width: 36em) {
     .intro {
-      font-size: 36px; } }
+      font-size: 34px; } }
 
 .info {
   display: -ms-flexbox;

@@ -3,4 +3,8 @@
   margin-bottom: 6rem;
   font-size: 14px;
   font-weight: bold;
+  
+  @media (max-width: 36em) {
+    font-size: 12px;
+  }
 }

@@ -142,7 +142,7 @@ li:visited {
   margin-top: 6rem;
   margin-bottom: 6rem;
   font-size: 14px;
-  font-weight: bold; }
+  font-weight: normal; }
   @media (max-width: 36em) {
     .footer {
       font-size: 10px; } }

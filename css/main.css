@@ -79,19 +79,19 @@ a:hover {
 
 header {
   font-family: 'Helvetica';
-  font-size: 72px;
+  font-size: 60px;
   font-weight: bold;
-  margin-top: 32px; }
+  margin-top: 28px; }
   @media (max-width: 36em) {
     header {
       font-size: 32px; } }
 
 .intro {
   font-family: 'Helvetica';
-  font-size: 72px;
+  font-size: 60px;
   font-weight: bold;
   line-height: 1.07;
-  margin-top: 64px;
+  margin-top: 70px;
   letter-spacing: -1.8px;
   word-wrap: break-word;
   color: #FFF; }
@@ -112,7 +112,7 @@ header {
   -ms-flex-negative: 0;
       flex-shrink: 0;
   line-height: 1.5em;
-  margin-top: 2em;
+  margin-top: 2.5em;
   word-wrap: break-word; }
   .info > * {
     padding: 1rem;
@@ -129,6 +129,10 @@ header {
         -ms-flex-preferred-size: 25%;
             flex-basis: 25%;
         max-width: 25%; } }
+  @media (max-width: 36em) {
+    .info {
+      font-size: 14px;
+      line-height: 1.3em; } }
 
 li:hover:after {
   content: "→";
@@ -140,9 +144,9 @@ li:visited {
 
 .footer {
   margin-top: 6rem;
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
   font-size: 14px;
   font-weight: normal; }
   @media (max-width: 36em) {
     .footer {
-      font-size: 10px; } }
+      font-size: 12px; } }

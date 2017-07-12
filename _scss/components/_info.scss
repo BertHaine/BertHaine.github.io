@@ -1,8 +1,13 @@
 .info {
   @include flex-grid(1, 2, 4, $pad: 1rem);
   line-height: 1.5em;
-  margin-top: 2em;
+  margin-top: 2.5em;
   word-wrap: break-word;
+
+  @media (max-width: 36em) {
+    font-size: 14px;
+    line-height: 1.3em;
+  }
 }
 
 
@@ -14,6 +19,6 @@ li {
     transition: margin 0.5s;  
   }
   &:visited {
-  color: inherit;
+    color: inherit;
   } 
 }

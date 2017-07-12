@@ -32,9 +32,9 @@ a {
           transition: border 500ms ease;
   text-decoration: none;
   color: inherit;
-  border-bottom: 1px solid rgba(192, 192, 192, 0);
+  border-bottom: .5px solid rgba(0, 0, 0, 1);
 }
 
 a:hover {
-  border-bottom: 1px solid rgba(192, 192, 192, 1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
 }

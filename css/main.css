@@ -79,25 +79,31 @@ a:hover {
 
 header {
   font-family: 'Helvetica';
-  font-size: 60px;
+  font-size: 3.75rem;
   font-weight: bold;
-  margin-top: 28px; }
+  margin-top: 1.75rem; }
+  @media (max-width: 46em) {
+    header {
+      font-size: 2.62rem; } }
   @media (max-width: 36em) {
     header {
-      font-size: 32px; } }
+      font-size: 2rem; } }
 
 .intro {
   font-family: 'Helvetica';
-  font-size: 60px;
+  font-size: 3.75rem;
   font-weight: bold;
   line-height: 1.07;
-  margin-top: 70px;
+  margin-top: 5.5rem;
   letter-spacing: -1.8px;
   word-wrap: break-word;
   color: #FFF; }
+  @media (max-width: 46em) {
+    .intro {
+      font-size: 2.62rem; } }
   @media (max-width: 36em) {
     .intro {
-      font-size: 32px; } }
+      font-size: 2rem; } }
 
 .info {
   display: -ms-flexbox;
@@ -111,8 +117,8 @@ header {
   list-style: none;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  line-height: 1.5em;
-  margin-top: 2.5em;
+  line-height: 1.4rem;
+  margin-top: 1.5rem;
   word-wrap: break-word; }
   .info > * {
     padding: 1rem;
@@ -131,12 +137,12 @@ header {
         max-width: 25%; } }
   @media (max-width: 36em) {
     .info {
-      font-size: 14px;
-      line-height: 1.3em; } }
+      font-size: .875rem;
+      line-height: 1.3rem; } }
 
 li:hover:after {
   content: "→";
-  margin-left: .2em;
+  margin-left: .2rem;
   transition: margin 0.5s; }
 
 li:visited {
@@ -145,8 +151,8 @@ li:visited {
 .footer {
   margin-top: 6rem;
   margin-bottom: 3rem;
-  font-size: 14px;
+  font-size: .875rem;
   font-weight: normal; }
   @media (max-width: 36em) {
     .footer {
-      font-size: 12px; } }
+      font-size: .75rem; } }

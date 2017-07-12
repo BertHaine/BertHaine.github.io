@@ -1,12 +1,13 @@
 .info {
   @include flex-grid(1, 2, 4, $pad: 1rem);
-  line-height: 1.5em;
-  margin-top: 2.5em;
+  line-height: 1.4rem;
+  margin-top: 1.5rem;
   word-wrap: break-word;
 
+
   @media (max-width: 36em) {
-    font-size: 14px;
-    line-height: 1.3em;
+    font-size: .875rem;
+    line-height: 1.3rem;
   }
 }
 
@@ -15,7 +16,7 @@ li {
 
   &:hover:after {
     content: "→";
-    margin-left: .2em;
+    margin-left: .2rem;
     transition: margin 0.5s;  
   }
   &:visited {

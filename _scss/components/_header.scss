@@ -1,10 +1,13 @@
 header {
   font-family: 'Helvetica';
-  font-size: 60px;
+  font-size: 3.75rem;
   font-weight: bold;
-  margin-top: 28px;
+  margin-top: 1.75rem;
 
+  @media (max-width: 46em) {
+    font-size: 2.62rem;
+  }
   @media (max-width: 36em) {
-    font-size: 32px;
+    font-size: 2rem;
   }
 }

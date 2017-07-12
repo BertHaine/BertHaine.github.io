@@ -1,15 +1,15 @@
-<div class="info">
-  <div>  
+<section class="info">
+  <div class="info__block">  
     {% for item in site.data.data.info %}
     <p>{{ item.bio }}</p>
     {% endfor %}
   </div>
-  <div>
+  <div class="info__block">
   {% for item in site.data.data.info %}
     <p>{{ item.bio2 }}</p>
     {% endfor %}
   </div>
-  <div>
+  <div class="info__block">
     <h3>View my recent projects:</h3>
     <ul>
       {% for item in site.data.data.projects %}
@@ -17,7 +17,7 @@
       {% endfor %}
     </ul>
   </div>
-  <div>
+  <div class="info__block">
     <h3>Follow me:</h3>
     <ul>
       {% for item in site.data.data.social %}
@@ -25,4 +25,4 @@
       {% endfor %}
     </ul>
   </div>
-</div>
+</section>

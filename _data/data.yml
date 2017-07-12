@@ -1,14 +1,12 @@
 social: 
+  - title: Resume
+    url: https://www.dropbox.com/s/i48fakzx2qnk2dd/BertramHaineResume-New.pdf?dl=0
   - title: Linkedin
     url: https://www.linkedin.com/in/bertramhaine/
   - title: Github
     url: https://github.com/BertHaine/
-  - title: Dribbble
-    url: https://www.dribbble.com/in/berthaine/
   - title: Behance
     url: https://behance.net/bertramhaine
-  - title: Dwell
-    url: https://behance.net/bertramhainedat
 
 projects: 
   - title: Vice Grip

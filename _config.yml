@@ -1,2 +1,25 @@
-name: Your New Jekyll Site
+# Site settings
+name: Bertram Haine
+title: Bertram Haine | Front-End Developer & Designer
+description: Hi, I am Bertram Haine, a Front-End Developer & Designer living in Seattle, WA.
+url: http://bertramhaine.com
+baseurl: ""
+email: bertram.haine@gmail.com
+cover: http://bertramhaine.com/images/og.jpg
+logo: http://bertramhaine.com/img/logo-black.png
+resume: http://bertramhaine.com/resume.pdf
+social:
+  - title: email
+    url: mailto:bertram.haine@gmail.com
+  - title: twitter
+    url: https://twitter.com/berthaine
+  - title: instagram
+    url: https://instagram.com/thisisbertram
+  - title: codepen
+    url: http://codepen.io/berthaine
+  - title: github
+    url: https://github.com/berthaine
+  - title: linkedin
+    url: https://www.linkedin.com/in/bertramhaine
+
 exclude: ["node_modules", "gulpfile.js", "package.json"]

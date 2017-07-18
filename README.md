@@ -1,37 +1,32 @@
-Bertram Haine's Portfolio
-=============================
 
-A starter project including full setup for Jekyll, GulpJS, SASS, AutoPrefixer &amp; BrowserSync
+# Bertram Haine's Portfolio Website
+
+My personal website showcasing my development & design work. Shout to Josef Müller-Brockmann for the inspiraton 🇨🇭 
+
+## Getting Started
 
 #### Install Node.js
 1.  Install [HomeBrew](http://brew.sh/)
-1. `brew install nvm`
-1. `nvm install v6.9.4`
+2. `brew install nvm`
+3. `nvm install v6.9.4`
 
 #### Setting up the Project
 1. Install Jekyll `$ gem install jekyll`
-1. Install gulp: `$ npm install -g gulp`
-1. Install dependencies: `$ npm install`
-1. Build for prod: `$ gulp
+2. Install gulp: `$ npm install -g gulp`
+3. Install dependencies: `$ npm install`
+4. Serve for dev server: `$ gulp serve`
+5. Build for prod: `$ gulp build`
 
-## Deploy with Gulp
+## Built With
 
-You can easily deploy your site build to a gh-pages branch. First, follow the instructions at [gulp-gh-pages](https://github.com/rowoot/gulp-gh-pages) to get your branch prepared for the deployment and to install the module. Then, in `gulpfile.js` you'll want to include something like the code below. `gulp.src()` needs to be the path to your final site folder, which by default will be `_site`. If you change the `destination` in your `_config.yml` file, be sure to reflect that in your gulpfile.
+* [Jekyll](https://jekyllrb.com/) - For a static site generator
+* [Gulp](http://gulpjs.com/) - For an automated and enhanced workflow
+* [Sass](http://sass-lang.com/) - For efficient and modular CSS
 
-
-
-```javascript
-var deploy = require("gulp-gh-pages");
-
-gulp.task("deploy", ["jekyll-build"], function () {
-    return gulp.src("./_site/**/*")
-        .pipe(deploy());
-});
-```
 
 ## Acknowledgments
 
 Hat tip to
 
-* [Shane Osbourne](https://github.com/shakyShane) for his jekyll boilerplate I built off of for this template.
+* [Shane Osbourne](https://github.com/shakyShane) for his jekyll boilerplate.
 * [Urban Influence](http://urbaninfluence.com/2016/08/a-flexy-little-grid-system/) for their Flex Grid Mixin used here.

@@ -13,7 +13,7 @@
     <h3>View my recent projects:</h3>
     <ul>
       {% for item in site.data.data.projects %}
-      <li><a href="{{ item.url }}"  target="_blank">{{ item.title }}</a></li>
+      <li><a href="{{ item.url }}"  target="_blank" rel="noopener">{{ item.title }}</a></li>
       {% endfor %}
     </ul>
   </div>
@@ -21,7 +21,7 @@
     <h3>About me:</h3>
     <ul>
       {% for item in site.data.data.social %}
-      <li><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></li>
+      <li><a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a></li>
       {% endfor %}
     </ul>
   </div>
